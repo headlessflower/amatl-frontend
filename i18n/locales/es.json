@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "app": "Calculadora",
+    "pricing": "Precios",
+    "login": "Iniciar sesión"
+  },
+  "home": {
+    "title": "Calcula costos reales. Pon precios con confianza.",
+    "subtitle": "Materiales + tiempo + merma + preparación → costo unitario y precios sugeridos."
+  },
+
+  "hero": {
+    "title": "Estudio Amatl",
+    "copy": "Acompáñanos en clases prácticas de papel artesanal, sesiones privadas y horas de estudio abierto—aprende a formar hojas, incorporar elementos botánicos y crear papel con intención.",
+    "scroll": "Deslizar",
+    "imageAlt": "Manos levantando una hoja de papel artesanal recién hecha desde un marco (deckle)"
+  },
+
+  "cta": { "start": "Empezar" },
+  "help": {
+    "summaryTitle": "Cómo usar esta calculadora",
+    "summaryMeta": "Haz clic para abrir / cerrar",
+
+    "introA": "Esta herramienta te ayuda a poner precio a papel hecho a mano y productos de tiraje pequeño tomando en cuenta lo que muchos olvidan:",
+    "introStrong": "mano de obra, merma, tiempo de preparación y gastos indirectos",
+    "introB": "Completa los datos a la izquierda; los resultados se actualizan automáticamente.",
+
+    "tip": "Tip: Empieza simple (1–2 materiales, una línea de mano de obra) y agrega detalle hasta que el costo por unidad se sienta realista.",
+
+    "items": {
+      "batchSize": {
+        "title": "Tamaño del lote",
+        "body": "Cuántas unidades vendibles esperas obtener del lote. Si vas a hacer 10 hojas, escribe 10."
+      },
+      "materials": {
+        "title": "Materiales",
+        "body": "Agrega cada material usado en el lote: algodón, abacá, encolante, pigmento, flores, empaque, etc. Cada línea usa Cant. × Costo unitario."
+      },
+      "labor": {
+        "title": "Mano de obra",
+        "body": "Registra tu tiempo de trabajo. Puedes dividir por tareas (formado, couching, prensado, secado, recorte). Cada línea es Horas × Tarifa."
+      },
+      "waste": {
+        "title": "Merma %",
+        "body": "Considera piezas rechazadas, rasgaduras, pruebas de color, impresiones fallidas o cualquier pérdida. Si 10% no se puede vender, escribe 10. La merma aumenta tu costo real por unidad."
+      },
+      "setup": {
+        "title": "Tiempo de preparación",
+        "body": "Tiempo único antes del lote: preparar pulpa, montar bastidores, limpiar equipo, cortar plantillas. Se reparte entre el lote para no subvaluar tirajes pequeños."
+      },
+      "overhead": {
+        "title": "Gastos indirectos %",
+        "body": "Porcentaje para cubrir costos del taller que no son “materiales”: renta, luz, desgaste de herramientas, administración. Si no estás segura/o, empieza con 5–15%."
+      },
+      "margin": {
+        "title": "Margen objetivo %",
+        "body": "El margen de ganancia que deseas en precio retail. Un margen más alto te deja espacio para descuentos, comisiones de galerías y crecimiento."
+      },
+      "wholesale": {
+        "title": "Descuento mayoreo %",
+        "body": "Mayoreo suele ser un descuento sobre el retail para tiendas y galerías. Ejemplo: 50% de descuento = el mayoreo es la mitad del retail."
+      },
+      "fx": {
+        "title": "Tipo de cambio USD ↔ MXN",
+        "body": "Se usa solo para mostrar conversión. Obtenemos un tipo de cambio diario USD→MXN (con caché). Puedes ajustarlo si vendes a turistas, galerías o si hoy estás usando un tipo específico."
+      }
+    }
+  },
+  "export": { "pdf": "Exportar PDF" },
+  "products": {
+    "index": "(04)",
+    "title": "Papel Artesanal",
+    "titleEmphasis": "Hecho con Cuidado",
+    "intro": "Explora nuestra colección de productos de papel artesanal, elaborados en pequeñas ediciones con fibras naturales, elementos botánicos y técnicas tradicionales.",
+    "usd": "USD",
+
+    "items": {
+      "deckledWildflower": "Hoja con Borde Natural — Flores Silvestres",
+      "seededStationery": "Set de Papelería con Semillas",
+      "giftWrap": "Hojas de Papel Artesanal para Regalo",
+      "stoneFiber": "Paquete de Papel de Fibra Mineral",
+      "desertCards": "Set de Tarjetas Botánicas del Desierto",
+      "miniNotes": "Notas Pequeñas y Set Tipo Cerillo"
+    },
+
+    "alts": {
+      "deckledWildflower": "Hoja de papel artesanal con flores silvestres incrustadas",
+      "seededStationery": "Juego de papelería artesanal con semillas",
+      "giftWrap": "Hojas de papel artesanal apiladas para envolver regalos",
+      "stoneFiber": "Paquete de papel artesanal hecho con fibra mineral",
+      "desertCards": "Set de tarjetas artesanales con motivos botánicos",
+      "miniNotes": "Notas pequeñas de papel artesanal con soporte tipo cerillo"
+    }
+  },
+  "classes": {
+    "index": "(01)",
+    "title": "Prueba",
+    "titleEmphasis": "Papel Artesanal",
+    "description": "Ya sea que busques una pausa creativa, una experiencia en grupo, o una forma de diseñar papelería personalizada, nuestras clases te guían por todo el proceso—del pulpeo a la hoja final. Aprende a formar hojas con borde natural, incorporar elementos botánicos y usar las herramientas del estudio a tu propio ritmo.",
+    "images": {
+      "mainAlt": "Manos levantando una hoja de papel artesanal recién hecha desde un marco (deckle)",
+      "secondaryAlt": "Primer plano de pulpa de papel con pétalos flotando en una tina"
+    }
+  },
+  "applications": {
+    "index": "(02)",
+    "title": "Papel Artesanal",
+    "titleEmphasis": "En la Práctica",
+    "intro": "Nuestras sesiones se enfocan en usos reales—pensadas para artistas, parejas y organizadores que quieren crear materiales significativos y táctiles, hechos a mano.",
+    "languagesStrong": "Idioma:",
+    "languages": "Todas las sesiones se ofrecen en English y Español.",
+    "label": "Aplicaciones",
+    "items": {
+      "wedding": {
+        "title": "Invitaciones y Papelería de Boda",
+        "subtitle": "Invitaciones • sobres • papelería",
+        "description": "Crea invitaciones, sobres y detalles para el día del evento con bordes naturales, botánicos incrustados y paletas de color a la medida.",
+        "alt": "Invitaciones de boda en papel artesanal con borde natural"
+      },
+      "events": {
+        "title": "Eventos y Reuniones",
+        "subtitle": "Menús • tarjetas de lugar • recuerdos",
+        "description": "Diseña menús, tarjetas de lugar, señalización y recuerdos—hechos a mano para reflejar el lugar, la temporada y la intención.",
+        "alt": "Menús y tarjetas de lugar en papel artesanal sobre una mesa"
+      },
+      "printmaking": {
+        "title": "Grabado y Ediciones Artísticas",
+        "subtitle": "Relieve • intaglio • serigrafía",
+        "description": "Aprende a formar hojas para grabado considerando gramaje, fibras, encolado y textura—listas para ediciones y trabajo de taller.",
+        "alt": "Hojas de papel artesanal preparadas para grabado"
+      },
+      "stationery": {
+        "title": "Papelería Personalizada",
+        "subtitle": "Cartas • regalos • sets",
+        "description": "Crea papel para escribir, tarjetas y sobres para correspondencia, regalos y colecciones en pequeña edición.",
+        "alt": "Hojas de papelería artesanal apiladas sobre una mesa de estudio"
+      }
+    }
+  },
+  "contactForm": {
+    "headline": "¿Te interesa trabajar con nosotras/os en la papelería de tu evento? Escríbenos para recibir información sobre precios y paquetes.",
+    "required": "requerido",
+    "labels": {
+      "name": "Nombre",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "role": "¿Cuál es tu rol?",
+      "items": "¿Qué piezas de papelería te interesan?",
+      "email": "Correo electrónico",
+      "newsletter": "Suscribirme para noticias y novedades"
+    },
+    "placeholders": {
+      "firstName": "",
+      "lastName": "",
+      "select": "Selecciona una opción",
+      "email": ""
+    },
+    "hints": {
+      "checkAll": "Marca todas las que correspondan"
+    },
+    "roleOptions": {
+      "brideGroom": "Pareja (Boda/Elopement)",
+      "eventPlanner": "Organizador(a) de Eventos",
+      "designer": "Diseñador(a) / Estudio",
+      "brand": "Marca / Empresa",
+      "other": "Otro"
+    },
+    "items": {
+      "invitationSuite": "Suite de Invitación",
+      "saveTheDate": "Save the Date",
+      "dayOfPapers": "Papelería del Día del Evento"
+    },
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "success": "Gracias—tu mensaje fue enviado. Te responderemos pronto.",
+    "errors": {
+      "name": "Por favor escribe tu nombre y apellido.",
+      "email": "Por favor escribe tu correo electrónico.",
+      "generic": "Ocurrió un error. Por favor inténtalo de nuevo."
+    }
+  }
+}

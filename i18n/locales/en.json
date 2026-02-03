@@ -1,0 +1,178 @@
+{
+  "nav": { "app": "Calculator", "pricing": "Pricing", "login": "Log in" },
+  "home": {
+    "title": "Know your true costs. Price with confidence.",
+    "subtitle": "Materials + time + waste + setup → unit cost and suggested prices."
+  },
+  "hero": {
+    "title": "Amatl Studio",
+    "copy": "Join us for hands-on papermaking classes, private sessions, and open studio hours—learn to pull sheets, embed botanicals, and create paper with intention.",
+    "scroll": "Scroll",
+    "imageAlt": "Hands lifting a fresh sheet of handmade paper from a deckle"
+  },
+  "cta": { "start": "Get started" },
+  "help": {
+    "summaryTitle": "How to use this calculator",
+    "summaryMeta": "Click to expand / collapse",
+
+    "introA": "This tool helps you price handmade paper and small-batch goods by accounting for what most people forget:",
+    "introStrong": "labor, waste, setup time, and overhead",
+    "introB": "Fill in the inputs on the left; the right side updates automatically.",
+
+    "tip": "Tip: Start simple (1–2 materials, one labor line) and then add detail until the unit cost feels realistic.",
+
+    "items": {
+      "batchSize": {
+        "title": "Batch size",
+        "body": "How many sellable units you expect from the batch. If you’re making 10 sheets, enter 10."
+      },
+      "materials": {
+        "title": "Materials",
+        "body": "Add every material used in the batch: cotton rag, abaca, sizing, pigment, flowers, packaging, etc. Use Qty × Unit cost per line."
+      },
+      "labor": {
+        "title": "Labor",
+        "body": "Track your hands-on time. Split tasks if helpful (forming, couching, pressing, drying, trimming). Each line is Hours × Rate."
+      },
+      "waste": {
+        "title": "Waste %",
+        "body": "Accounts for rejects, tears, color tests, misprints, or any loss. If 10% of units are unsellable, enter 10. Waste increases your true unit cost."
+      },
+      "setup": {
+        "title": "Setup time",
+        "body": "One-time time you spend before the batch: pulling pulp, setting up screens, cleaning equipment, cutting templates. Setup is spread across the batch so you don’t underprice small runs."
+      },
+      "overhead": {
+        "title": "Overhead %",
+        "body": "A percentage to cover studio expenses that aren’t “materials”: rent, electricity, tool wear, admin time. If you’re unsure, start with 5–15%."
+      },
+      "margin": {
+        "title": "Target margin %",
+        "body": "The profit margin you want on retail pricing. Higher margin gives you room for discounts, gallery cuts, and growth."
+      },
+      "wholesale": {
+        "title": "Wholesale discount %",
+        "body": "Wholesale is typically a discount from retail for shops and galleries. Example: 50% discount = wholesale is half of retail."
+      },
+      "fx": {
+        "title": "USD ↔ MXN exchange rate",
+        "body": "Used only for conversion display. We fetch a daily USD→MXN rate (with caching). You can override it if you’re selling to tourists, galleries, or using a specific exchange rate today."
+      }
+    }
+  },
+  "export": { "pdf": "Export PDF" },
+
+  "products": {
+    "index": "(04)",
+    "title": "Handcrafted Paper",
+    "titleEmphasis": "Made with Care",
+    "intro": "Explore our collection of handmade paper goods, produced in small batches using natural fibers, botanicals, and traditional techniques.",
+    "usd": "USD",
+
+    "items": {
+      "deckledWildflower": "Deckled Sheet — Wildflower",
+      "seededStationery": "Seeded Stationery Set",
+      "giftWrap": "Handmade Gift Wrap Sheets",
+      "stoneFiber": "Stone Fiber Paper Bundle",
+      "desertCards": "Desert Botanical Card Set",
+      "miniNotes": "Mini Notes & Matchbook Set"
+    },
+
+    "alts": {
+      "deckledWildflower": "Deckled handmade paper sheet embedded with wildflowers",
+      "seededStationery": "Set of seeded handmade stationery sheets",
+      "giftWrap": "Handmade paper gift wrap sheets stacked together",
+      "stoneFiber": "Stone fiber handmade paper bundle",
+      "desertCards": "Botanical handmade card set",
+      "miniNotes": "Small handmade paper notes and matchbook holder"
+    }
+  },
+  "classes": {
+    "index": "(01)",
+    "title": "Try",
+    "titleEmphasis": "Papermaking",
+    "description": "Whether you’re looking for a quiet creative escape, a fun group experience, or a way to design custom stationery, our papermaking classes guide you through the full process—from pulp to finished sheet. Learn to pull deckled sheets, embed botanicals, and build confidence with studio tools at your own pace.",
+    "images": {
+      "mainAlt": "Hands lifting a fresh sheet of handmade paper from a deckle",
+      "secondaryAlt": "Close-up of paper pulp with petals floating in a vat"
+    }
+  },
+  "applications": {
+    "index": "(02)",
+    "title": "Handmade Paper",
+    "titleEmphasis": "In Practice",
+    "intro": "Our sessions focus on real-world applications—designed for artists, couples, and organizers looking to create meaningful, tactile materials by hand.",
+    "languagesStrong": "Language:",
+    "languages": "All sessions are offered in English and Español.",
+    "label": "Applications",
+    "items": {
+      "wedding": {
+        "title": "Wedding Invitations & Suites",
+        "subtitle": "Invitations • envelopes • paper goods",
+        "description": "Create bespoke invitations, envelopes, and day-of details with deckled edges, embedded botanicals, and custom color palettes.",
+        "alt": "Handmade paper wedding invitations with deckled edges"
+      },
+      "events": {
+        "title": "Events & Gatherings",
+        "subtitle": "Menus • place cards • keepsakes",
+        "description": "Design menus, place cards, signage, and keepsakes—crafted by hand to reflect place, season, and intention.",
+        "alt": "Handmade paper menus and place cards arranged on a table"
+      },
+      "printmaking": {
+        "title": "Printmaking & Art Editions",
+        "subtitle": "Relief • intaglio • screen",
+        "description": "Learn to pull sheets for printmaking with attention to weight, fiber content, sizing, and surface—ready for editions and studio work.",
+        "alt": "Handmade paper sheets prepared for printmaking"
+      },
+      "stationery": {
+        "title": "Custom Stationery",
+        "subtitle": "Letter writing • gifting • sets",
+        "description": "Create writing paper, cards, and envelopes tailored for correspondence, gifting, and small-batch collections.",
+        "alt": "Handmade stationery sheets stacked on a studio table"
+      }
+    }
+  },
+
+  "contactForm": {
+    "headline": "Interested in working together on your event stationery? Get in touch for information on pricing and packages.",
+    "required": "required",
+    "labels": {
+      "name": "Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "role": "What's your role?",
+      "items": "What stationery items are you interested in?",
+      "email": "Email",
+      "newsletter": "Sign up for news and updates"
+    },
+    "placeholders": {
+      "firstName": "",
+      "lastName": "",
+      "select": "Select an option",
+      "email": ""
+    },
+    "hints": {
+      "checkAll": "Check all that apply"
+    },
+    "roleOptions": {
+      "brideGroom": "Couple (Wedding/Elopement)",
+      "eventPlanner": "Event Planner",
+      "designer": "Designer / Studio",
+      "brand": "Brand / Company",
+      "other": "Other"
+    },
+    "items": {
+      "invitationSuite": "Invitation Suite",
+      "saveTheDate": "Save the Date",
+      "dayOfPapers": "Day-Of Papers"
+    },
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "success": "Thanks—your message has been sent. We’ll get back to you soon.",
+    "errors": {
+      "name": "Please enter your first and last name.",
+      "email": "Please enter your email address.",
+      "generic": "Something went wrong. Please try again."
+    }
+  }
+}
