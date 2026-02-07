@@ -14,9 +14,7 @@ const primaryLinks: FooterLink[] = [
     { label: "Contact", href: "/contact" },
 ];
 
-const secondaryLinks: FooterLink[] = [
-    { label: "Wholesale Inquiry", href: "/wholesale" },
-];
+const secondaryLinks: FooterLink[] = [];
 </script>
 
 <template>
@@ -62,6 +60,13 @@ const secondaryLinks: FooterLink[] = [
             <!-- Bottom-left copyright -->
             <div class="footer__bottom">
                 <p class="footer__copyright">© {{ year }} Amatl</p>
+                <p class="footer__copyright">
+                    built by
+                    <a href="https://headlessflower.dev" class="footer__link"
+                        >HeadlessFlower</a
+                    >
+                    {{ year }}
+                </p>
             </div>
         </div>
     </footer>

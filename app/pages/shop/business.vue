@@ -99,16 +99,6 @@ const contactLink = computed(() => {
                         </figure>
 
                         <div class="branding-hero__copy">
-                            <p class="branding-hero__kicker">
-                                {{ t("branding.hero.kicker") }}
-                            </p>
-                            <h1 class="branding-hero__title">
-                                {{ t("branding.hero.title") }}
-                            </h1>
-                            <p class="branding-hero__subtitle">
-                                {{ t("branding.hero.subtitle") }}
-                            </p>
-
                             <div class="branding-hero__actions">
                                 <NuxtLink
                                     class="branding-hero__cta branding-hero__cta--primary"

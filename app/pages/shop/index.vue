@@ -77,12 +77,6 @@ const audienceCards = computed<ShopAudienceCard[]>(() => [
     },
 ]);
 
-/**
- * Best-practice naming:
- * - verb + noun
- * - clear intent
- * - no abbreviations
- */
 function getSectionClassName(index: number) {
     // Alternates layout to keep the editorial staggered feel
     return index % 2 === 0
@@ -97,17 +91,7 @@ function getSectionClassName(index: number) {
         <section class="shop-hub__hero" aria-label="Shop overview">
             <div class="shop-hub__container">
                 <div class="shop-hub__hero-grid">
-                    <div class="shop-hub__hero-copy">
-                        <p class="shop-hub__kicker">
-                            {{ t("shopHub.hero.kicker") }}
-                        </p>
-                        <h1 class="shop-hub__title">
-                            {{ t("shopHub.hero.title") }}
-                        </h1>
-                        <p class="shop-hub__subtitle">
-                            {{ t("shopHub.hero.subtitle") }}
-                        </p>
-                    </div>
+                    <div class="shop-hub__hero-copy"></div>
 
                     <div class="shop-hub__hero-aside">
                         <p class="shop-hub__aside-text">

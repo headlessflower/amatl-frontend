@@ -74,16 +74,6 @@ const details = computed(() => ({
                         </figure>
 
                         <div class="stationery-hero__copy">
-                            <p class="stationery-hero__kicker">
-                                {{ hero.kicker }}
-                            </p>
-                            <h1 class="stationery-hero__title">
-                                {{ hero.title }}
-                            </h1>
-                            <p class="stationery-hero__subtitle">
-                                {{ hero.subtitle }}
-                            </p>
-
                             <div class="stationery-hero__actions">
                                 <NuxtLink
                                     class="stationery-hero__cta stationery-hero__cta--primary"

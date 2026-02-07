@@ -14,35 +14,6 @@ const { t } = useI18n();
                     </p>
 
                     <!-- Optional: local shop nav (keeps it minimal like your references) -->
-                    <nav class="shop-shell__nav" aria-label="Shop navigation">
-                        <NuxtLink class="shop-shell__nav-link" to="/shop">
-                            {{ t("shopShell.nav.overview") }}
-                        </NuxtLink>
-                        <NuxtLink
-                            class="shop-shell__nav-link"
-                            to="/shop/events"
-                        >
-                            {{ t("shopShell.nav.events") }}
-                        </NuxtLink>
-                        <NuxtLink
-                            class="shop-shell__nav-link"
-                            to="/shop/branding"
-                        >
-                            {{ t("shopShell.nav.branding") }}
-                        </NuxtLink>
-                        <NuxtLink
-                            class="shop-shell__nav-link"
-                            to="/shop/artists"
-                        >
-                            {{ t("shopShell.nav.artists") }}
-                        </NuxtLink>
-                        <NuxtLink
-                            class="shop-shell__nav-link"
-                            to="/shop/classes"
-                        >
-                            {{ t("shopShell.nav.classes") }}
-                        </NuxtLink>
-                    </nav>
                 </div>
             </div>
         </header>

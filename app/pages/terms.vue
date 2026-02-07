@@ -74,6 +74,14 @@ const termsSections: TermsSection[] = [
                         >
                             {{ p }}
                         </p>
+                        <p class="terms__paragraph">
+                            {{ t("terms.sections.copyrights.p3") }}
+                            <a
+                                class="terms__email"
+                                href="mailto:contact@amatl.example"
+                                >amatlstudio@gmail.com</a
+                            >
+                        </p>
                     </section>
                 </article>
             </div>
@@ -147,6 +155,12 @@ const termsSections: TermsSection[] = [
 
 .terms__paragraph:last-child {
     margin-bottom: 0;
+}
+
+.terms__email {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 @media (max-width: 1000px) {

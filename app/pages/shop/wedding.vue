@@ -86,16 +86,6 @@ const gallery = computed(() => ({
                         </figure>
 
                         <div class="weddings-hero__copy">
-                            <p class="weddings-hero__kicker">
-                                {{ t("weddings.hero.kicker") }}
-                            </p>
-                            <h1 class="weddings-hero__title">
-                                {{ t("weddings.hero.title") }}
-                            </h1>
-                            <p class="weddings-hero__subtitle">
-                                {{ t("weddings.hero.subtitle") }}
-                            </p>
-
                             <div class="weddings-hero__actions">
                                 <NuxtLink
                                     class="weddings-hero__cta weddings-hero__cta--primary"

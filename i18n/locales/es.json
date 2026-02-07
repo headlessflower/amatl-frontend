@@ -417,8 +417,147 @@
         "title": "Derechos de Autor",
         "p1": "Todos los diseños, productos y obras mostrados o descritos en este Sitio web están protegidos por derechos de autor y son propiedad exclusiva de Amatl, salvo que se indique lo contrario. Bajo ninguna circunstancia las obras de Amatl pueden reproducirse, duplicarse o reutilizarse de ninguna forma o por ningún medio, ni pueden crearse obras derivadas.",
         "p2": "Este Sitio web y su contenido, incluidos, entre otros, el código, los textos, las imágenes, los gráficos y el diseño del sitio, son propiedad exclusiva de Amatl. Ninguna parte de este Sitio web puede usarse, copiarse, reproducirse o modificarse sin autorización por escrito de Amatl.",
-        "p3": "Las solicitudes para utilizar cualquier contenido de este Sitio web deben dirigirse a contact@amatl.example."
+        "p3": "Las solicitudes para utilizar cualquier contenido de este Sitio web deben dirigirse a:"
       }
+    }
+  },
+  "shipping": {
+    "title": "Información de Envíos",
+    "eyebrow": "Todos los artículos diseñados",
+    "sections": {
+      "handmadePaper": {
+        "title": "Pedidos de Papel Hecho a Mano",
+        "p1": "Enviamos a todo el mundo y trabajamos con parejas, negocios y visitantes que planean proyectos a distancia. Los artículos en existencia suelen enviarse en 1–3 días hábiles.",
+        "p2": "Para papel hecho a mano bajo pedido, los tiempos de producción varían según la temporada y el volumen. Si tienes una fecha de evento, recomendamos escribirnos con anticipación para confirmar tiempos y opciones."
+      },
+      "international": {
+        "title": "Envíos Internacionales",
+        "p1": "Es posible que tu aduana local cobre impuestos y/o aranceles adicionales, los cuales no están incluidos en el total del pedido. Te recomendamos investigar qué cargos aplican en tu país.",
+        "p2": "Los tiempos de aduana pueden variar. Si necesitas entrega para una fecha específica, recomendamos elegir un servicio con rastreo y ordenar con margen adicional."
+      }
+    },
+    "contact": {
+      "line": "¿Dudas sobre envíos, urgencias o recogida local? Escríbenos a"
+    }
+  },
+  "workshops": {
+    "hero": {
+      "kicker": "Workshops",
+      "title": "Make handmade paper + prints in San Miguel de Allende",
+      "subtitle": "A calm, hands-on studio session—something different to do while visiting the town. You’ll make sheets of paper and create prints to take home.",
+      "primaryCta": "Sign up / inquire",
+      "secondaryCta": "View class options",
+      "note": "Each session includes papermaking and printmaking (linocut). Depending on availability, we may also offer introductory etching as an add-on."
+    },
+    "feature": {
+      "eyebrow": "Studio sessions",
+      "headline": "Handmade paper + linocut printing—crafted by you, guided by us.",
+      "cta": "Get in touch"
+    },
+    "details": {
+      "paragraph": "Workshops are designed for visitors and locals who want a tactile, art-forward experience. We keep groups small and the pace relaxed—focused on learning, making, and leaving with something real."
+    },
+    "highlightsTitle": "What you’ll do",
+    "highlightsCta": "Ask about dates",
+    "highlights": {
+      "paper": {
+        "title": "Handmade paper",
+        "description": "Pull sheets from pulp, explore deckled edges, and learn how inclusions (flowers, grasses, fibers) change texture and strength."
+      },
+      "lino": {
+        "title": "Linocut printing",
+        "description": "Carve a simple block, ink it, and print a small edition—on studio paper and/or your freshly pulled sheets (as time allows)."
+      },
+      "optionalEtching": {
+        "title": "Optional: introductory etching",
+        "description": "When available, add a light intro to etching—basic prep and printing—ideal for curious beginners."
+      }
+    },
+    "infoTitle": "Practical details",
+    "info": {
+      "duration": {
+        "title": "Duration",
+        "description": "Most sessions run 2–3 hours. Private sessions can be longer for deeper focus or larger groups."
+      },
+      "included": {
+        "title": "Included",
+        "description": "All materials and tools are provided: pulp, inclusions, paper, inks, brayers, carving tools, and a studio apron."
+      },
+      "level": {
+        "title": "Skill level",
+        "description": "Beginner-friendly. We’ll guide each step and adjust projects to your comfort level."
+      },
+      "booking": {
+        "title": "Booking",
+        "description": "Reserve ahead for travel dates. We can also plan private groups for celebrations, retreats, or visiting artists."
+      }
+    },
+    "images": {
+      "heroLeftAlt": "Studio workshop scene with paper materials",
+      "heroRightAlt": "Close-up of paper texture and tools",
+      "fullBleedAlt": "Full screen workshop image featuring paper and printmaking",
+      "detailLeftAlt": "Papermaking detail image",
+      "detailRightAlt": "Linocut printing detail image"
+    }
+  },
+  "workshops": {
+    "hero": {
+      "kicker": "Talleres",
+      "title": "Haz papel hecho a mano y grabados en San Miguel de Allende",
+      "subtitle": "Una sesión tranquila y práctica en el estudio—algo diferente para hacer mientras visitas el pueblo. Harás hojas de papel y crearás impresiones para llevar a casa.",
+      "primaryCta": "Inscribirme / consultar",
+      "secondaryCta": "Ver opciones",
+      "note": "Cada sesión incluye papel hecho a mano y grabado (linóleo). Según disponibilidad, también podemos ofrecer una introducción a la técnica de aguafuerte como complemento."
+    },
+    "feature": {
+      "eyebrow": "Sesiones en el estudio",
+      "headline": "Papel hecho a mano + linóleo—hecho por ti, guiado por nosotros.",
+      "cta": "Contactar"
+    },
+    "details": {
+      "paragraph": "Los talleres están pensados para visitantes y locales que buscan una experiencia táctil y artística. Mantenemos grupos pequeños y un ritmo relajado—enfocado en aprender, hacer y salir con algo real."
+    },
+    "highlightsTitle": "Lo que harás",
+    "highlightsCta": "Preguntar por fechas",
+    "highlights": {
+      "paper": {
+        "title": "Papel hecho a mano",
+        "description": "Forma hojas desde la pulpa, explora bordes deckle y aprende cómo las inclusiones (flores, pastos, fibras) cambian la textura y la resistencia."
+      },
+      "lino": {
+        "title": "Grabado en linóleo",
+        "description": "Talla un bloque sencillo, entíntalo e imprime una pequeña edición—en papel del estudio y/o en tus hojas recién hechas (si el tiempo lo permite)."
+      },
+      "optionalEtching": {
+        "title": "Opcional: introducción al aguafuerte",
+        "description": "Cuando esté disponible, añade una introducción ligera al aguafuerte—preparación básica e impresión—ideal para principiantes curiosos."
+      }
+    },
+    "infoTitle": "Detalles prácticos",
+    "info": {
+      "duration": {
+        "title": "Duración",
+        "description": "La mayoría de las sesiones duran 2–3 horas. Las sesiones privadas pueden ser más largas para profundizar o para grupos."
+      },
+      "included": {
+        "title": "Incluye",
+        "description": "Incluimos materiales y herramientas: pulpa, inclusiones, papel, tintas, rodillos, gubias y un mandil del estudio."
+      },
+      "level": {
+        "title": "Nivel",
+        "description": "Apto para principiantes. Te guiamos paso a paso y adaptamos el proyecto a tu nivel."
+      },
+      "booking": {
+        "title": "Reservación",
+        "description": "Reserva con anticipación para tus fechas de viaje. También organizamos grupos privados para celebraciones, retiros o artistas visitantes."
+      }
+    },
+    "images": {
+      "heroLeftAlt": "Escena de taller en el estudio con materiales de papel",
+      "heroRightAlt": "Detalle de textura de papel y herramientas",
+      "fullBleedAlt": "Imagen a pantalla completa del taller con papel y grabado",
+      "detailLeftAlt": "Detalle del proceso de papel hecho a mano",
+      "detailRightAlt": "Detalle del proceso de linóleo"
     }
   }
 }
