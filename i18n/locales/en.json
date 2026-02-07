@@ -104,7 +104,7 @@
     "intro": "Our sessions focus on real-world applications—designed for artists, couples, and organizers looking to create meaningful, tactile materials by hand.",
     "languagesStrong": "Language:",
     "languages": "All sessions are offered in English and Español.",
-    "label": "Applications",
+    "label": "Solutions",
     "items": {
       "wedding": {
         "title": "Wedding Invitations & Suites",
@@ -173,6 +173,249 @@
       "name": "Please enter your first and last name.",
       "email": "Please enter your email address.",
       "generic": "Something went wrong. Please try again."
+    }
+  },
+
+  "shop": {
+    "title": "The Handmade Paper Shop",
+    "subtitle": "Refined texture for the modern paper-lover. Buttery feel, delicate deckle and substantial quality.",
+    "sortBy": "Sort by",
+    "sort": {
+      "featured": "Featured",
+      "priceAsc": "Price: Low to high",
+      "priceDesc": "Price: High to low"
+    },
+    "priceFrom": "From {price}",
+    "filters": {
+      "all": "All",
+      "blush": "Blush",
+      "clay": "Clay",
+      "dusk": "Dusk",
+      "haze": "Haze",
+      "lake": "Lake",
+      "midnight": "Midnight",
+      "offWhite": "Off-White",
+      "permanentEdition": "Permanent Edition",
+      "samplesBundles": "Samples & Bundles",
+      "seaFog": "Sea Fog",
+      "wheat": "Wheat",
+      "more": "More"
+    },
+    "products": {
+      "blush": "Handmade Paper in Blush",
+      "offWhite": "Handmade Paper in Off-White",
+      "haze": "Handmade Paper in Haze",
+      "clay": "Handmade Paper in Clay",
+      "dusk": "Handmade Paper in Dusk"
+    }
+  },
+  "stationery": {
+    "hero": {
+      "kicker": "Stationery",
+      "title": "Wedding & Event Paper Goods",
+      "subtitle": "Semi-custom collections and bespoke design—clean, contemporary, and lush.",
+      "primaryCta": "Shop paper",
+      "secondaryCta": "Get in touch",
+      "note": "From whimsical illustrative work to sparing compositions, our aesthetic is at once bold and delicate—where craft, typography, and texture meet.",
+      "leftAlt": "Stationery set photographed on a table",
+      "rightAlt": "Small stationery arrangement photographed from above"
+    },
+    "featured": {
+      "eyebrow": "Event stationery",
+      "headline": "Wedding invitations and bespoke paper goods.",
+      "cta": "Get in touch",
+      "alt": "Featured stationery image with textured paper"
+    },
+    "details": {
+      "body": "Amatl is a handmade paper studio offering a range of semi-custom sets in addition to custom services. We blend distinct craft and botanical materials with a modern, minimal aesthetic—creating paper goods that feel both calm and expressive.",
+      "leftAlt": "Stationery flat lay detail",
+      "rightAlt": "Close-up of embossed RSVP card"
+    }
+  },
+  "shopHub": {
+    "hero": {
+      "kicker": "Shop",
+      "title": "Paper goods and print services for San Miguel de Allende",
+      "subtitle": "Choose a path based on what you’re making—events, brand touchpoints, studio practice, or learning experiences.",
+      "aside": "We design and produce tactile paper objects with a modern, minimal sensibility—grounded in craft, texture, and regional materials."
+    },
+    "sections": {
+      "events": {
+        "title": "Events",
+        "description": "Wedding stationery, invitations, menus, place cards, and day-of details—semi-custom sets or bespoke work.",
+        "linkLabel": "Explore event paper",
+        "imageAlt": "Event stationery flat lay",
+        "imageAltRight": "Event paper details close-up"
+      },
+      "branding": {
+        "title": "Branding for businesses & restaurants",
+        "description": "Menus, packaging, note cards, loyalty cards, inserts, and brand paper systems designed to feel quietly premium.",
+        "linkLabel": "Explore branding",
+        "imageAlt": "Brand paper goods arrangement",
+        "imageAltRight": "Branded paper detail close-up"
+      },
+      "artists": {
+        "title": "Artists: print & paper for studio practice",
+        "description": "Handmade sheets, printmaking papers, specialty stock, and art supply support—built for mark-making and archival care.",
+        "linkLabel": "Explore artist papers",
+        "imageAlt": "Handmade paper textures",
+        "imageAltRight": "Close-up of deckle edge paper"
+      },
+      "classes": {
+        "title": "Classes & experiences",
+        "description": "Hands-on workshops for visitors—learn papermaking, inclusions, and simple print processes in San Miguel de Allende.",
+        "linkLabel": "Explore classes",
+        "imageAlt": "Workshop table with paper materials",
+        "imageAltRight": "Hands working with pulp and inclusions"
+      }
+    },
+    "note": "Looking for something specific? We can recommend the best paper, process, and timeline—just reach out."
+  },
+
+  "shopShell": {
+    "kicker": "Shop",
+    "nav": {
+      "overview": "Overview",
+      "events": "Events",
+      "branding": "Branding",
+      "artists": "Artists",
+      "classes": "Classes"
+    },
+    "footer": {
+      "note": "Not sure where to start? Tell us what you’re making and we’ll recommend the best paper, process, and timeline.",
+      "cta": "Get in touch"
+    }
+  },
+  "weddings": {
+    "hero": {
+      "kicker": "Events · Weddings",
+      "title": "Handmade paper for weddings in San Miguel de Allende",
+      "subtitle": "Invitations, place settings, menus, and day-of details—crafted with deckled edges, natural inclusions, and a quietly modern feel.",
+      "primaryCta": "Inquire about your wedding",
+      "secondaryCta": "Back to events",
+      "note": "We can match your venue, season, and palette—from soft botanicals to clean minimal compositions—while keeping timelines practical for destination planning."
+    },
+    "feature": {
+      "eyebrow": "Event stationery",
+      "headline": "Place cards, menus, invitations, and bespoke paper goods—made to be held, kept, and remembered.",
+      "cta": "Get in touch"
+    },
+    "details": {
+      "paragraph": "Our wedding paper is designed as a complete tactile system: invitations that set the tone, place settings that guide the guest experience, and on-site pieces that feel cohesive from ceremony to dinner. We work with handmade sheets and print processes that highlight texture—ideal for destination weddings and intimate celebrations."
+    },
+    "useCasesTitle": "What we can make for weddings",
+    "useCasesCta": "Request a quote",
+    "useCases": {
+      "invitations": {
+        "title": "Invitations & suites",
+        "description": "Save the dates, invitation cards, RSVP, details cards, envelopes, liners, and seals—semi-custom or fully bespoke."
+      },
+      "placeSettings": {
+        "title": "Place settings",
+        "description": "Place cards, menus, table numbers, escort cards, and name tags—handmade paper adds warmth and a premium tactile finish."
+      },
+      "cateringMarketing": {
+        "title": "Catering + vendor touchpoints",
+        "description": "Small-format pieces for bars and catering: cocktail menus, signage cards, tasting notes, and branded inserts that tie vendors into the paper story."
+      },
+      "signage": {
+        "title": "Signage & wayfinding",
+        "description": "Welcome signs, ceremony programs, seating charts, and directional markers—designed to remain calm and legible, even outdoors."
+      },
+      "gifts": {
+        "title": "Keepsakes & guest gifts",
+        "description": "Thank-you notes, favor tags, custom letterpress moments, or small handmade paper mementos with local botanical inclusions."
+      }
+    },
+    "images": {
+      "heroLeftAlt": "Wedding stationery set photographed on a table",
+      "heroRightAlt": "Wedding paper detail photographed from above",
+      "fullBleedAlt": "Full screen image of handmade wedding paper",
+      "detailLeftAlt": "Handmade paper suite detail",
+      "detailRightAlt": "Close-up texture detail on wedding paper"
+    }
+  },
+  "branding": {
+    "hero": {
+      "kicker": "Branding · Businesses & Restaurants",
+      "title": "Business marketing materials in handmade paper + premium stock",
+      "subtitle": "Menus, event flyers, table cards, packaging inserts, and brand touchpoints—designed to feel quietly premium and easy to use in service.",
+      "primaryCta": "Request a quote",
+      "secondaryCta": "Back to shop",
+      "note": "Restaurants and small brands benefit from paper that feels intentional: durable where it needs to be, soft where it should be, and always legible in real spaces—low light, busy tables, and quick turnover."
+    },
+    "feature": {
+      "eyebrow": "Brand touchpoints",
+      "headline": "Menus, special event flyers, table cards, and paper systems designed for daily use.",
+      "cta": "Get in touch"
+    },
+    "details": {
+      "paragraph": "We create practical, beautiful paper goods that support your service and story. Choose handmade paper for special moments—or pair premium stock with clean typography for menus and seasonal promotions. We can keep formats consistent for reprints and refreshes, so your materials stay cohesive over time."
+    },
+    "useCasesTitle": "Common requests",
+    "useCasesCta": "Start a project",
+    "useCases": {
+      "menus": {
+        "title": "Menus & menu cards",
+        "description": "Single-sheet menus, folded menus, tasting menus, insert cards, and limited-run seasonal updates—designed for clarity and easy reprinting."
+      },
+      "flyers": {
+        "title": "Special event flyers",
+        "description": "Flyers and handbills for live music, openings, pop-ups, and collaborations—paper that stands out on a community board or in-hand."
+      },
+      "tabletop": {
+        "title": "Tabletop pieces",
+        "description": "Table tents, reservation cards, thank-you cards, checks presenters, and small signage—built to hold up during service."
+      },
+      "packaging": {
+        "title": "Packaging inserts & labels",
+        "description": "Product inserts, care cards, hang tags, stickers, and band wraps—consistent sizing for repeat runs and easy packing workflows."
+      },
+      "brandSystem": {
+        "title": "Brand paper system",
+        "description": "A cohesive set of templates: type styles, sizing, margins, and print specs—so future reprints stay consistent (even with new seasonal content)."
+      }
+    },
+    "contact": {
+      "subject": "Business marketing materials"
+    },
+    "images": {
+      "heroLeftAlt": "Restaurant paper goods photographed on a table",
+      "heroRightAlt": "Small brand paper detail photographed from above",
+      "fullBleedAlt": "Full screen image of paper marketing materials",
+      "detailLeftAlt": "Flyer or menu detail on paper",
+      "detailRightAlt": "Close-up of paper texture and typography"
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "sections": {
+      "products": {
+        "title": "Products & Specifications",
+        "p1": "All products, content, specifications and prices are subject to change at any time without notice. We may make changes to designs depicted on this Website at any time if we determine such changes are necessary to improve or maintain the design and integrity of the product.",
+        "p2": "We make all reasonable efforts to accurately display the attributes of our products, including all colors; however, the actual color you see will depend on your computer system and/or monitor.",
+        "p3": "Due to the artisan nature of our products, there may be variations between items. We make no guarantee of a specific size, shape, color or performance of any of our products."
+      },
+      "variations": {
+        "title": "Variations in Handmade Paper",
+        "p1": "Due to the one-of-a-kind nature of our handmade paper stock, product characteristics may vary widely. Variations in size, shape, color, printability and performance of handmade paper is to be expected.",
+        "p2": "This irregularity may extend to any and all artwork or designs printed on our handmade paper through any and all print methods. We consider this to be a positive characteristic and as such make no guarantee of a specific color, shape, size or performance of any handmade paper products."
+      },
+      "pricing": {
+        "title": "Pricing",
+        "p1": "Prices listed within our website are subject to change without notice.",
+        "p2": "Despite our best efforts, items on the Website may occasionally be listed incorrectly. Amatl has the right to refuse or cancel any orders placed for products listed at the incorrect price. If the order is cancelled after payment has already been made, you will be credited immediately in the original amount and form of payment."
+      },
+      "security": {
+        "title": "Security",
+        "p1": "We take the utmost care and concern for your privacy while you are shopping on our site. We will never share or sell your information to any third party, and any information we collect is solely used to contact you about your order if necessary. Our site is fully secured using SSL encryption technology to ensure your personal information (especially your name, address, and credit card number) stays confidential and out of the wrong hands."
+      },
+      "copyrights": {
+        "title": "Copyrights",
+        "p1": "All designs, products, and artwork depicted or described on this Website are protected by copyright and are the sole property of Amatl unless otherwise indicated. Under no circumstances may Amatl artwork be reproduced, duplicated or repurposed in any form or by any means, nor may derivative works be made.",
+        "p2": "This Website and its contents, including but not limited to all code, content, images, graphics, and site design, are the sole property of Amatl. No portion of this Website may be used, copied, reproduced, or modified, without the written permission of Amatl.",
+        "p3": "Requests to use any content contained within this Website should be directed to contact@amatl.example."
+      }
     }
   }
 }

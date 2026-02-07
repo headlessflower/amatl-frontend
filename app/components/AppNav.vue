@@ -167,9 +167,9 @@ const navItems: NavItem[] = [
         label: "Shop",
         children: [
             { label: "All Paper", href: "/shop" },
-            { label: "Stationery", href: "/shop/seeded-stationery" },
+            { label: "Stationery", href: "/shop/stationery" },
             { label: "Wedding Suites", href: "/shop/wedding" },
-            { label: "Restaurant", href: "/shop/gift-sets" },
+            { label: "B2B", href: "/shop/business" },
         ],
     },
     { label: "Studio", href: "/studio" },

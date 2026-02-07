@@ -109,7 +109,7 @@
     "intro": "Nuestras sesiones se enfocan en usos reales—pensadas para artistas, parejas y organizadores que quieren crear materiales significativos y táctiles, hechos a mano.",
     "languagesStrong": "Idioma:",
     "languages": "Todas las sesiones se ofrecen en English y Español.",
-    "label": "Aplicaciones",
+    "label": "Soluciones",
     "items": {
       "wedding": {
         "title": "Invitaciones y Papelería de Boda",
@@ -177,6 +177,248 @@
       "name": "Por favor escribe tu nombre y apellido.",
       "email": "Por favor escribe tu correo electrónico.",
       "generic": "Ocurrió un error. Por favor inténtalo de nuevo."
+    }
+  },
+
+  "shop": {
+    "title": "La Tienda de Papel Hecho a Mano",
+    "subtitle": "Textura refinada para amantes del papel contemporáneo. Tacto mantecoso, deckle delicado y calidad sustancial.",
+    "sortBy": "Ordenar por",
+    "sort": {
+      "featured": "Destacados",
+      "priceAsc": "Precio: menor a mayor",
+      "priceDesc": "Precio: mayor a menor"
+    },
+    "priceFrom": "Desde {price}",
+    "filters": {
+      "all": "Todo",
+      "blush": "Rubor",
+      "clay": "Arcilla",
+      "dusk": "Atardecer",
+      "haze": "Bruma",
+      "lake": "Lago",
+      "midnight": "Medianoche",
+      "offWhite": "Blanco roto",
+      "permanentEdition": "Edición permanente",
+      "samplesBundles": "Muestras y paquetes",
+      "seaFog": "Niebla marina",
+      "wheat": "Trigo",
+      "more": "Más"
+    },
+    "products": {
+      "blush": "Papel hecho a mano en Rubor",
+      "offWhite": "Papel hecho a mano en Blanco roto",
+      "haze": "Papel hecho a mano en Bruma",
+      "clay": "Papel hecho a mano en Arcilla",
+      "dusk": "Papel hecho a mano en Atardecer"
+    }
+  },
+  "stationery": {
+    "hero": {
+      "kicker": "Papelería",
+      "title": "Papelería para Bodas y Eventos",
+      "subtitle": "Colecciones semi-personalizadas y diseño a medida—limpio, contemporáneo y lleno de textura.",
+      "primaryCta": "Comprar papel",
+      "secondaryCta": "Contactar",
+      "note": "De lo ilustrativo y lúdico a composiciones sobrias, nuestra estética es a la vez audaz y delicada—donde se encuentran el oficio, la tipografía y la textura.",
+      "leftAlt": "Set de papelería fotografiado sobre mesa",
+      "rightAlt": "Arreglo pequeño de papelería visto desde arriba"
+    },
+    "featured": {
+      "eyebrow": "Papelería para eventos",
+      "headline": "Invitaciones de boda y productos de papel a medida.",
+      "cta": "Contactar",
+      "alt": "Imagen destacada de papelería con papel texturizado"
+    },
+    "details": {
+      "body": "Amatl es un estudio de papel hecho a mano que ofrece sets semi-personalizados además de servicios a medida. Combinamos oficio y materiales botánicos con una estética moderna y minimalista—creando piezas que se sienten serenas y expresivas.",
+      "leftAlt": "Detalle de papelería en flat lay",
+      "rightAlt": "Acercamiento de tarjeta RSVP en relieve"
+    }
+  },
+  "shopHub": {
+    "hero": {
+      "kicker": "Tienda",
+      "title": "Papel y servicios de impresión en San Miguel de Allende",
+      "subtitle": "Elige una ruta según lo que estás creando—eventos, marca, práctica de estudio o experiencias de aprendizaje.",
+      "aside": "Diseñamos y producimos objetos de papel con una estética moderna y minimalista—basados en oficio, textura y materiales regionales."
+    },
+    "sections": {
+      "events": {
+        "title": "Eventos",
+        "description": "Papelería para bodas, invitaciones, menús, place cards y piezas del día del evento—sets semi-personalizados o trabajo a medida.",
+        "linkLabel": "Ver papelería para eventos",
+        "imageAlt": "Papelería para eventos en flat lay",
+        "imageAltRight": "Detalle de papelería para eventos"
+      },
+      "branding": {
+        "title": "Marca para negocios y restaurantes",
+        "description": "Menús, empaques, tarjetas, sistemas de papel y piezas de marca con un acabado sutilmente premium.",
+        "linkLabel": "Ver soluciones de marca",
+        "imageAlt": "Piezas de marca en papel",
+        "imageAltRight": "Detalle de papel con marca"
+      },
+      "artists": {
+        "title": "Artistas: impresión y papel para el estudio",
+        "description": "Hojas hechas a mano, papeles para grabado, stock especial y apoyo de materiales—para gesto, tinta y cuidado archivístico.",
+        "linkLabel": "Ver papeles para artistas",
+        "imageAlt": "Texturas de papel hecho a mano",
+        "imageAltRight": "Detalle de borde deckle"
+      },
+      "classes": {
+        "title": "Clases y experiencias",
+        "description": "Talleres prácticos para visitantes—aprende papel hecho a mano, inclusiones botánicas y procesos simples de impresión en San Miguel.",
+        "linkLabel": "Ver clases",
+        "imageAlt": "Mesa de taller con materiales",
+        "imageAltRight": "Manos trabajando con pulpa e inclusiones"
+      }
+    },
+    "note": "¿Buscas algo específico? Te recomendamos el mejor papel, proceso y tiempos—escríbenos."
+  },
+  "shopShell": {
+    "kicker": "Tienda",
+    "nav": {
+      "overview": "Resumen",
+      "events": "Eventos",
+      "branding": "Marca",
+      "artists": "Artistas",
+      "classes": "Clases"
+    },
+    "footer": {
+      "note": "¿No sabes por dónde empezar? Cuéntanos qué estás creando y te recomendamos el mejor papel, proceso y tiempos.",
+      "cta": "Contactar"
+    }
+  },
+  "weddings": {
+    "hero": {
+      "kicker": "Eventos · Bodas",
+      "title": "Papel hecho a mano para bodas en San Miguel de Allende",
+      "subtitle": "Invitaciones, place cards, menús y piezas del día del evento—con bordes deckle, inclusiones naturales y una estética moderna y serena.",
+      "primaryCta": "Cotizar mi boda",
+      "secondaryCta": "Volver a eventos",
+      "note": "Podemos adaptar el papel a tu venue, temporada y paleta—de botánicos suaves a composiciones minimalistas—con tiempos realistas para planificación de destino."
+    },
+    "feature": {
+      "eyebrow": "Papelería para eventos",
+      "headline": "Place cards, menús, invitaciones y piezas a medida—hechas para tocarse, guardarse y recordarse.",
+      "cta": "Contactar"
+    },
+    "details": {
+      "paragraph": "Nuestra papelería de boda se diseña como un sistema táctil completo: invitaciones que marcan el tono, piezas de mesa que guían la experiencia, y elementos en sitio que se sienten coherentes de la ceremonia a la cena. Trabajamos con hojas hechas a mano y procesos de impresión que resaltan la textura—ideal para bodas destino y celebraciones íntimas."
+    },
+    "useCasesTitle": "Qué podemos crear para bodas",
+    "useCasesCta": "Solicitar cotización",
+    "useCases": {
+      "invitations": {
+        "title": "Invitaciones y suite",
+        "description": "Save the date, invitación, RSVP, tarjetas de detalles, sobres, liners y sellos—semi-personalizado o totalmente a medida."
+      },
+      "placeSettings": {
+        "title": "Papelería de mesa",
+        "description": "Place cards, menús, números de mesa, escort cards y etiquetas con nombre—el papel hecho a mano aporta calidez y un acabado premium."
+      },
+      "cateringMarketing": {
+        "title": "Catering + piezas para proveedores",
+        "description": "Piezas pequeñas para barra y catering: menús de cocteles, tarjetas de señalización, notas de degustación e inserts que conectan a proveedores con la historia del papel."
+      },
+      "signage": {
+        "title": "Señalización y guía",
+        "description": "Letreros de bienvenida, programas, seating charts y direccionales—diseñados para ser claros y tranquilos, incluso en exteriores."
+      },
+      "gifts": {
+        "title": "Recuerdos y detalles",
+        "description": "Notas de agradecimiento, tags para recuerdos, momentos tipográficos especiales, o pequeños mementos con inclusiones botánicas locales."
+      }
+    },
+    "images": {
+      "heroLeftAlt": "Set de papelería de boda fotografiado sobre mesa",
+      "heroRightAlt": "Detalle de papel de boda visto desde arriba",
+      "fullBleedAlt": "Imagen a pantalla completa de papel hecho a mano para boda",
+      "detailLeftAlt": "Detalle de suite en papel hecho a mano",
+      "detailRightAlt": "Detalle cercano de textura en papel de boda"
+    }
+  },
+  "branding": {
+    "hero": {
+      "kicker": "Marca · Negocios y Restaurantes",
+      "title": "Materiales de marketing en papel hecho a mano y stock premium",
+      "subtitle": "Menús, flyers para eventos, tarjetas de mesa, inserts para empaque y piezas de marca—diseñadas para sentirse premium y funcionar durante el servicio.",
+      "primaryCta": "Solicitar cotización",
+      "secondaryCta": "Volver a tienda",
+      "note": "Los restaurantes y marcas pequeñas se benefician de papel intencional: resistente donde se necesita, suave donde conviene, y siempre legible en espacios reales—luz baja, mesas activas y rotación rápida."
+    },
+    "feature": {
+      "eyebrow": "Piezas de marca",
+      "headline": "Menús, flyers para eventos especiales, tarjetas de mesa y sistemas de papel diseñados para uso diario.",
+      "cta": "Contactar"
+    },
+    "details": {
+      "paragraph": "Creamos piezas prácticas y hermosas que apoyan tu servicio y tu historia. Usa papel hecho a mano para momentos especiales—o combina stock premium con tipografía limpia para menús y promociones de temporada. Podemos mantener formatos consistentes para reimpresiones y actualizaciones, para que todo se sienta coherente con el tiempo."
+    },
+    "useCasesTitle": "Solicitudes comunes",
+    "useCasesCta": "Iniciar un proyecto",
+    "useCases": {
+      "menus": {
+        "title": "Menús y tarjetas de menú",
+        "description": "Menús de una hoja, menús plegados, menús de degustación, tarjetas insertables y actualizaciones de temporada—diseñados para claridad y reimpresión fácil."
+      },
+      "flyers": {
+        "title": "Flyers para eventos especiales",
+        "description": "Flyers y handbills para música en vivo, aperturas, pop-ups y colaboraciones—papel que destaca en un tablón comunitario o en mano."
+      },
+      "tabletop": {
+        "title": "Piezas para mesa",
+        "description": "Table tents, tarjetas de reservación, notas de agradecimiento, check presenters y señalización pequeña—pensadas para aguantar el servicio."
+      },
+      "packaging": {
+        "title": "Inserts y etiquetas para empaque",
+        "description": "Inserts, tarjetas de cuidado, hang tags, stickers y bandas—tamaños consistentes para corridas repetibles y empaque ágil."
+      },
+      "brandSystem": {
+        "title": "Sistema de papel de marca",
+        "description": "Un set coherente de plantillas: tipografías, tamaños, márgenes y especificaciones de impresión—para que futuras reimpresiones se mantengan consistentes."
+      }
+    },
+    "contact": {
+      "subject": "Materiales de marketing para negocios"
+    },
+    "images": {
+      "heroLeftAlt": "Piezas de papel para restaurante fotografiadas sobre mesa",
+      "heroRightAlt": "Detalle de papel de marca visto desde arriba",
+      "fullBleedAlt": "Imagen a pantalla completa de materiales de marketing en papel",
+      "detailLeftAlt": "Detalle de flyer o menú en papel",
+      "detailRightAlt": "Acercamiento de textura y tipografía"
+    }
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "sections": {
+      "products": {
+        "title": "Productos y Especificaciones",
+        "p1": "Todos los productos, contenidos, especificaciones y precios están sujetos a cambios en cualquier momento y sin previo aviso. Podemos realizar cambios en los diseños mostrados en este Sitio web en cualquier momento si determinamos que dichos cambios son necesarios para mejorar o mantener el diseño y la integridad del producto.",
+        "p2": "Hacemos todos los esfuerzos razonables para mostrar con precisión los atributos de nuestros productos, incluidos los colores; sin embargo, el color real que vea dependerá de su sistema y/o monitor.",
+        "p3": "Debido a la naturaleza artesanal de nuestros productos, puede haber variaciones entre piezas. No garantizamos un tamaño, forma, color o desempeño específico de ninguno de nuestros productos."
+      },
+      "variations": {
+        "title": "Variaciones en el Papel Hecho a Mano",
+        "p1": "Debido a la naturaleza única de nuestro papel hecho a mano, las características del producto pueden variar ampliamente. Es normal que existan variaciones en tamaño, forma, color, imprimibilidad y desempeño.",
+        "p2": "Esta irregularidad puede extenderse a cualquier obra o diseño impreso en nuestro papel hecho a mano mediante cualquier método de impresión. Consideramos esto una característica positiva y, por lo tanto, no garantizamos un color, forma, tamaño o desempeño específico de ningún producto de papel hecho a mano."
+      },
+      "pricing": {
+        "title": "Precios",
+        "p1": "Los precios indicados en nuestro sitio web están sujetos a cambios sin previo aviso.",
+        "p2": "A pesar de nuestros mejores esfuerzos, algunos artículos en el Sitio web pueden aparecer ocasionalmente con un precio incorrecto. Amatl se reserva el derecho de rechazar o cancelar cualquier pedido realizado para productos listados con un precio incorrecto. Si el pedido se cancela después de haberse realizado el pago, se realizará un reembolso inmediato en el mismo monto y forma de pago original."
+      },
+      "security": {
+        "title": "Seguridad",
+        "p1": "Cuidamos al máximo su privacidad mientras compra en nuestro sitio. Nunca compartiremos ni venderemos su información a terceros, y cualquier información que recopilemos se utiliza únicamente para contactarle acerca de su pedido si es necesario. Nuestro sitio está protegido con tecnología de cifrado SSL para garantizar que su información personal (especialmente su nombre, dirección y número de tarjeta) se mantenga confidencial y fuera de manos indebidas."
+      },
+      "copyrights": {
+        "title": "Derechos de Autor",
+        "p1": "Todos los diseños, productos y obras mostrados o descritos en este Sitio web están protegidos por derechos de autor y son propiedad exclusiva de Amatl, salvo que se indique lo contrario. Bajo ninguna circunstancia las obras de Amatl pueden reproducirse, duplicarse o reutilizarse de ninguna forma o por ningún medio, ni pueden crearse obras derivadas.",
+        "p2": "Este Sitio web y su contenido, incluidos, entre otros, el código, los textos, las imágenes, los gráficos y el diseño del sitio, son propiedad exclusiva de Amatl. Ninguna parte de este Sitio web puede usarse, copiarse, reproducirse o modificarse sin autorización por escrito de Amatl.",
+        "p3": "Las solicitudes para utilizar cualquier contenido de este Sitio web deben dirigirse a contact@amatl.example."
+      }
     }
   }
 }
