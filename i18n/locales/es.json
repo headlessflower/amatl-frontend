@@ -440,66 +440,7 @@
       "line": "¿Dudas sobre envíos, urgencias o recogida local? Escríbenos a"
     }
   },
-  "workshops": {
-    "hero": {
-      "kicker": "Workshops",
-      "title": "Make handmade paper + prints in San Miguel de Allende",
-      "subtitle": "A calm, hands-on studio session—something different to do while visiting the town. You’ll make sheets of paper and create prints to take home.",
-      "primaryCta": "Sign up / inquire",
-      "secondaryCta": "View class options",
-      "note": "Each session includes papermaking and printmaking (linocut). Depending on availability, we may also offer introductory etching as an add-on."
-    },
-    "feature": {
-      "eyebrow": "Studio sessions",
-      "headline": "Handmade paper + linocut printing—crafted by you, guided by us.",
-      "cta": "Get in touch"
-    },
-    "details": {
-      "paragraph": "Workshops are designed for visitors and locals who want a tactile, art-forward experience. We keep groups small and the pace relaxed—focused on learning, making, and leaving with something real."
-    },
-    "highlightsTitle": "What you’ll do",
-    "highlightsCta": "Ask about dates",
-    "highlights": {
-      "paper": {
-        "title": "Handmade paper",
-        "description": "Pull sheets from pulp, explore deckled edges, and learn how inclusions (flowers, grasses, fibers) change texture and strength."
-      },
-      "lino": {
-        "title": "Linocut printing",
-        "description": "Carve a simple block, ink it, and print a small edition—on studio paper and/or your freshly pulled sheets (as time allows)."
-      },
-      "optionalEtching": {
-        "title": "Optional: introductory etching",
-        "description": "When available, add a light intro to etching—basic prep and printing—ideal for curious beginners."
-      }
-    },
-    "infoTitle": "Practical details",
-    "info": {
-      "duration": {
-        "title": "Duration",
-        "description": "Most sessions run 2–3 hours. Private sessions can be longer for deeper focus or larger groups."
-      },
-      "included": {
-        "title": "Included",
-        "description": "All materials and tools are provided: pulp, inclusions, paper, inks, brayers, carving tools, and a studio apron."
-      },
-      "level": {
-        "title": "Skill level",
-        "description": "Beginner-friendly. We’ll guide each step and adjust projects to your comfort level."
-      },
-      "booking": {
-        "title": "Booking",
-        "description": "Reserve ahead for travel dates. We can also plan private groups for celebrations, retreats, or visiting artists."
-      }
-    },
-    "images": {
-      "heroLeftAlt": "Studio workshop scene with paper materials",
-      "heroRightAlt": "Close-up of paper texture and tools",
-      "fullBleedAlt": "Full screen workshop image featuring paper and printmaking",
-      "detailLeftAlt": "Papermaking detail image",
-      "detailRightAlt": "Linocut printing detail image"
-    }
-  },
+
   "workshops": {
     "hero": {
       "kicker": "Talleres",
