@@ -34,23 +34,23 @@ const offers = computed<BrandingOffer[]>(() => [
 
 const images = computed(() => ({
     heroLeft: {
-        src: "/images/branding/hero-left.jpg",
+        src: "/marigold-dark/marigold-dark-stationery.png",
         alt: t("branding.images.heroLeftAlt"),
     },
     heroRight: {
-        src: "/images/branding/hero-right.jpg",
+        src: "/paper-marigold/amatl-marigold-letters.png",
         alt: t("branding.images.heroRightAlt"),
     },
     fullBleed: {
-        src: "/images/branding/full-bleed.jpg",
+        src: "/stationery/amatl-invites-1.png",
         alt: t("branding.images.fullBleedAlt"),
     },
     detailLeft: {
-        src: "/images/branding/detail-left.jpg",
+        src: "/marigold-dark/marigold-dark-tasting-notes.png",
         alt: t("branding.images.detailLeftAlt"),
     },
     detailRight: {
-        src: "/images/branding/detail-right.jpg",
+        src: "/stationery/amatl-startionary-1.png",
         alt: t("branding.images.detailRightAlt"),
     },
 }));

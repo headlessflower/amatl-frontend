@@ -16,7 +16,7 @@ const applications: Application[] = [
         titleKey: "applications.items.wedding.title",
         subtitleKey: "applications.items.wedding.subtitle",
         descriptionKey: "applications.items.wedding.description",
-        image: "/amatl-invites-1.png",
+        image: "/stationery/amatl-invites-1.png",
         altKey: "applications.items.wedding.alt",
     },
     {
@@ -32,7 +32,7 @@ const applications: Application[] = [
         titleKey: "applications.items.printmaking.title",
         subtitleKey: "applications.items.printmaking.subtitle",
         descriptionKey: "applications.items.printmaking.description",
-        image: "/amatl-prints.png",
+        image: "/gallery-print/amatl-prints.png",
         altKey: "applications.items.printmaking.alt",
     },
     {
@@ -40,7 +40,7 @@ const applications: Application[] = [
         titleKey: "applications.items.stationery.title",
         subtitleKey: "applications.items.stationery.subtitle",
         descriptionKey: "applications.items.stationery.description",
-        image: "/amatl-startionary-1.png",
+        image: "/stationery/amatl-startionary-1.png",
         altKey: "applications.items.stationery.alt",
     },
 ];

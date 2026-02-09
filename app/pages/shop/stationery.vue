@@ -14,11 +14,11 @@ const hero = computed(() => ({
     secondaryCta: t("stationery.hero.secondaryCta"),
     // Replace with your assets
     leftImage: {
-        src: "/images/stationery/hero-left.jpg",
+        src: "/stationery/amatl-startionary-1.png",
         alt: t("stationery.hero.leftAlt"),
     } as Img,
     rightImage: {
-        src: "/images/stationery/hero-right.jpg",
+        src: "/stationery/amatl-invites-1.png",
         alt: t("stationery.hero.rightAlt"),
     } as Img,
 }));
@@ -28,7 +28,7 @@ const featured = computed(() => ({
     headline: t("stationery.featured.headline"),
     cta: t("stationery.featured.cta"),
     image: {
-        src: "/images/stationery/featured-full.jpg",
+        src: "/stationery/amatl-invites-1.png",
         alt: t("stationery.featured.alt"),
     } as Img,
 }));
@@ -36,11 +36,11 @@ const featured = computed(() => ({
 const details = computed(() => ({
     body: t("stationery.details.body"),
     imgLeft: {
-        src: "/images/stationery/details-left.jpg",
+        src: "/stationery/amatl-startionary-1.png",
         alt: t("stationery.details.leftAlt"),
     } as Img,
     imgRight: {
-        src: "/images/stationery/details-right.jpg",
+        src: "/stationery/stationary.png",
         alt: t("stationery.details.rightAlt"),
     } as Img,
 }));
