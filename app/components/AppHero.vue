@@ -19,10 +19,6 @@
             <span class="hero__accent" aria-hidden="true"></span>
 
             <!-- Right-side scroll button -->
-            <button class="hero__scroll" type="button" @click="scrollDown">
-                <span class="hero__scrollText">{{ t("hero.scroll") }}</span>
-                <span class="hero__scrollIcon" aria-hidden="true">⌄</span>
-            </button>
         </div>
     </section>
 </template>

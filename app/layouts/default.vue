@@ -1,3 +1,49 @@
+<script setup lang="ts">
+import {
+    asJsonLdScript,
+    buildOrganizationJsonLd,
+    buildWebSiteJsonLd,
+} from "~/utils/seo/jsonld";
+
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl as string;
+const siteName = config.public.siteName as string;
+
+useHead({
+    script: [
+        asJsonLdScript(
+            buildOrganizationJsonLd({
+                siteUrl,
+                name: siteName,
+                // logoUrl: `${siteUrl}/logo.png`,
+                email: "solarsustain@gmail.com", // swap if needed for Amatl
+                phone: "(323) 709-5357",
+                locations: [
+                    {
+                        name: "East Los Angeles Studio",
+                        addressLocality: "Los Angeles",
+                        addressRegion: "CA",
+                        addressCountry: "US",
+                    },
+                    {
+                        name: "San Miguel de Allende Studio",
+                        addressLocality: "San Miguel de Allende",
+                        addressCountry: "MX",
+                    },
+                ],
+            }),
+        ),
+        asJsonLdScript(
+            buildWebSiteJsonLd({
+                siteUrl,
+                siteName,
+                searchUrl: `${siteUrl}/search?q={search_term_string}`,
+            }),
+        ),
+    ],
+});
+</script>
+
 <template>
     <div class="shell">
         <AppNav />

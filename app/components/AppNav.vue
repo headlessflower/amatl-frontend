@@ -50,7 +50,7 @@
                     </li>
                 </ul>
 
-                <!-- ✅ Language toggle (desktop) -->
+                <!-- Language toggle (desktop) -->
                 <LanguageToggle class="langToggle langToggle--desktop" />
 
                 <NuxtLink to="/contact" class="cta">
@@ -172,8 +172,8 @@ const navItems: NavItem[] = [
             { label: "B2B", href: "/shop/business" },
         ],
     },
-    { label: "Studio", href: "/studio" },
-    { label: "Gallery", href: "/gallery" },
+    //{ label: "Studio", href: "/studio" },
+    //{ label: "Gallery", href: "/gallery" },
     { label: "Workshops", href: "/workshops" },
 ];
 

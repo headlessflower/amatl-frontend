@@ -1,11 +1,30 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
+import { asJsonLdScript } from "~/utils/seo/jsonld";
+import { buildBreadcrumbListJsonLd } from "~/utils/seo/breadcrumbs";
+import { buildRouteBreadcrumbs } from "~/utils/seo/buildRouteBreadcrumbs";
+
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl as string;
+const route = useRoute();
 
 type WeddingUseCase = {
     title: string;
     description: string;
 };
+
+const labelMap = {
+    shop: "Shop",
+    wedding: "Wedding Suites",
+    workshops: "Workshops",
+};
+
+const crumbs = buildRouteBreadcrumbs(route.path, siteUrl, labelMap);
+
+useHead({
+    script: [asJsonLdScript(buildBreadcrumbListJsonLd(crumbs))],
+});
 
 const { t } = useI18n();
 
@@ -34,23 +53,23 @@ const useCases = computed<WeddingUseCase[]>(() => [
 
 const gallery = computed(() => ({
     heroLeft: {
-        src: "/images/weddings/hero-left.jpg",
+        src: "/wedding/wedding-place-setting.png",
         alt: t("weddings.images.heroLeftAlt"),
     },
     heroRight: {
-        src: "/images/weddings/hero-right.jpg",
+        src: "/paper-marigold/amatl-marigold-stationary.png",
         alt: t("weddings.images.heroRightAlt"),
     },
     fullBleed: {
-        src: "/images/weddings/full-bleed.jpg",
+        src: "/packaging-labels.png",
         alt: t("weddings.images.fullBleedAlt"),
     },
     detailLeft: {
-        src: "/images/weddings/detail-left.jpg",
+        src: "/amatl-spa-menu.png",
         alt: t("weddings.images.detailLeftAlt"),
     },
     detailRight: {
-        src: "/images/weddings/detail-right.jpg",
+        src: "/marigold-dark/marigold-dark-stationery.png",
         alt: t("weddings.images.detailRightAlt"),
     },
 }));

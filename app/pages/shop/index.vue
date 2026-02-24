@@ -12,6 +12,26 @@ type ShopAudienceCard = {
     imageRight?: { src: string; alt: string }; // optional second image like your sample layouts
 };
 
+import { buildRouteBreadcrumbs } from "~/utils/seo/buildRouteBreadcrumbs";
+import { buildBreadcrumbListJsonLd } from "~/utils/seo/breadcrumbs";
+import { asJsonLdScript } from "~/utils/seo/jsonld";
+
+const route = useRoute();
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl as string;
+
+const labelMap = {
+    shop: "Shop",
+    wedding: "Wedding Suites",
+    workshops: "Workshops",
+};
+
+const crumbs = buildRouteBreadcrumbs(route.path, siteUrl, labelMap);
+
+useHead({
+    script: [asJsonLdScript(buildBreadcrumbListJsonLd(crumbs))],
+});
+
 const { t } = useI18n();
 
 const audienceCards = computed<ShopAudienceCard[]>(() => [
@@ -65,7 +85,7 @@ const audienceCards = computed<ShopAudienceCard[]>(() => [
         title: t("shopHub.sections.classes.title"),
         description: t("shopHub.sections.classes.description"),
         linkLabel: t("shopHub.sections.classes.linkLabel"),
-        to: "/workshop",
+        to: "/workshops",
         image: {
             src: "/amatl-work-2.png",
             alt: t("shopHub.sections.classes.imageAlt"),

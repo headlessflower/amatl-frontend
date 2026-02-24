@@ -2,6 +2,26 @@
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
+import { buildRouteBreadcrumbs } from "~/utils/seo/buildRouteBreadcrumbs";
+import { buildBreadcrumbListJsonLd } from "~/utils/seo/breadcrumbs";
+import { asJsonLdScript } from "~/utils/seo/jsonld";
+
+const route = useRoute();
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl as string;
+
+const labelMap = {
+    shop: "Shop",
+    wedding: "Wedding Suites",
+    workshops: "Workshops",
+};
+
+const crumbs = buildRouteBreadcrumbs(route.path, siteUrl, labelMap);
+
+useHead({
+    script: [asJsonLdScript(buildBreadcrumbListJsonLd(crumbs))],
+});
+
 type WorkshopHighlight = { title: string; description: string };
 type WorkshopInfo = { title: string; description: string };
 
@@ -9,23 +29,23 @@ const { t } = useI18n();
 
 const images = computed(() => ({
     heroLeft: {
-        src: "/images/workshops/hero-left.jpg",
+        src: "/hands-sheet.png",
         alt: t("workshops.images.heroLeftAlt"),
     },
     heroRight: {
-        src: "/images/workshops/hero-right.jpg",
+        src: "amatl-work-2.png",
         alt: t("workshops.images.heroRightAlt"),
     },
     fullBleed: {
-        src: "/images/workshops/full-bleed.jpg",
+        src: "/hero-img.png",
         alt: t("workshops.images.fullBleedAlt"),
     },
     detailLeft: {
-        src: "/images/workshops/detail-left.jpg",
+        src: "/stationery/amatl-startionary-1.png",
         alt: t("workshops.images.detailLeftAlt"),
     },
     detailRight: {
-        src: "/images/workshops/detail-right.jpg",
+        src: "/marigold-dark/marigold-dark-print.png",
         alt: t("workshops.images.detailRightAlt"),
     },
 }));
